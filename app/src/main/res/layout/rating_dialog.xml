@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:padding="16.0dip"
+        android:text="Rate us"
+        android:textColor="@android:color/white"
+        android:textSize="18.0sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16.0dip"
+        android:text="Tell us and others how much liked it?"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16.0sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16.0dip"
+        android:background="@drawable/category_bg"
+        android:elevation="3.0dip"
+        android:padding="16.0dip"
+        app:srcCompat="@drawable/stars" />
+
+    <Button
+        android:id="@+id/rate_it_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:stateListAnimator="@null"
+        android:textAllCaps="false"
+        android:text="Rate it"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/later_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:stateListAnimator="@null"
+        android:textAllCaps="false"
+        android:text="Later"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/no_thanks_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/transparent"
+        android:stateListAnimator="@null"
+        android:textAllCaps="false"
+        android:text="No, Thanks!"
+        android:textColor="@color/colorPrimary" />
+</LinearLayout>
