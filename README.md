@@ -6,7 +6,7 @@ Fun, addictive, challenging, online quiz app.
 <img src="images/download%20(2).png" width="280"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="images/download%20(3).png" width="280"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="images/download%20(6).png" width="280"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="images/download%20(4).png" width="280"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="images/download%20(4).png" width="280"/>
 <img src="images/download%20(5).png" width="280"/>
 </div>
 
