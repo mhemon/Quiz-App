@@ -2,7 +2,7 @@
 Fun, addictive, challenging, online quiz app.
 
 <div>
-<img src="images/device-2020-08-31-215344.png" width="280"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="images/download%20(1).png" width="280"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="images/device-2020-08-31-214108.png" width="280"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="images/device-2020-08-31-215200.png" width="280"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="images/device-2020-08-31-215517.png" width="280"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
