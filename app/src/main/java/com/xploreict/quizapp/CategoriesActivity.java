@@ -14,7 +14,6 @@ import android.content.DialogInterface;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
-import android.text.Layout;
 import android.view.MenuItem;
 import android.widget.LinearLayout;
 import android.widget.Toast;

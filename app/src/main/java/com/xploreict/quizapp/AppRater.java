@@ -45,38 +45,38 @@ public class AppRater {
     public static void showRateDialog(final Context mContext, final SharedPreferences.Editor editor) {
         final Dialog dialog = new Dialog(mContext);
         dialog.setContentView(R.layout.rating_dialog);
-        Button ratebtn,laterbtn,nothnksbtn;
-        ratebtn = dialog.findViewById(R.id.rate_it_btn);
-        laterbtn = dialog.findViewById(R.id.later_btn);
-        nothnksbtn = dialog.findViewById(R.id.no_thanks_btn);
+    Button ratebtn,laterbtn,nothnksbtn;
+    ratebtn = dialog.findViewById(R.id.rate_it_btn);
+    laterbtn = dialog.findViewById(R.id.later_btn);
+    nothnksbtn = dialog.findViewById(R.id.no_thanks_btn);
 
         ratebtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://play.google.com/store/apps/details?id=" +APP_PNAME));
-                mContext.startActivity(browserIntent);
-                dialog.dismiss();
-            }
-        });
+        @Override
+        public void onClick(View view) {
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://play.google.com/store/apps/details?id=" +APP_PNAME));
+            mContext.startActivity(browserIntent);
+            dialog.dismiss();
+        }
+    });
 
         laterbtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                editor.putLong("launch_count", 0);
-                editor.commit();
-                dialog.dismiss();
-            }
-        });
+        @Override
+        public void onClick(View view) {
+            editor.putLong("launch_count", 0);
+            editor.commit();
+            dialog.dismiss();
+        }
+    });
 
         nothnksbtn.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                if (editor != null) {
-                    editor.putBoolean("dontshowagain", true);
-                    editor.commit();
-                }
-                dialog.dismiss();
+        public void onClick(View v) {
+            if (editor != null) {
+                editor.putBoolean("dontshowagain", true);
+                editor.commit();
             }
-        });
+            dialog.dismiss();
+        }
+    });
         dialog.show();
-    }
+}
 }
