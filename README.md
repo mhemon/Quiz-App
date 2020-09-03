@@ -17,5 +17,5 @@ Fun, addictive, challenging, online quiz app.
 3) Loading Images (i used circle image view & Glide to laod images).
 4) Adding Animation and thinkig abuot is it suit or not!
 5) Thinking about design & color (when you don't have scratch file, you have to think about every element).
-6) Adding qus to the firebase databse also boaring..
+6) Sync data sync images and show up with a nice animation isn't too easy to implement thanks to god i did it.
 7) Finally, I learn a lot form this project.
