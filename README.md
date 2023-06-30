@@ -9,7 +9,8 @@ Fun, addictive, challenging, online quiz app.
 <img src="images/download%20(4).png" width="280"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="images/download%20(5).png" width="280"/>
 </div>
-## Live URL
+
+### Live URL
 https://play.google.com/store/apps/details?id=com.xploreict.quizapp
 
 ### Difficulty
